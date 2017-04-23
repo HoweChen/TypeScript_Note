@@ -5,9 +5,9 @@ let hexLiteral: number = 0xf00d;
 let binaryLiteral: number = 0b1010;
 let octalLiteral: number = 0o744;
 
-let myName: string = 'Gene';
+let myName: string = `Gene`;
 let age: number = 37;
-let sentence: string = 'Hello, my name is ${myName}. I\'ll be ${age + 1} years old next month.';
+let sentence: string = `Hello, my name is ${myName}. I\'ll be ${age + 1} years old next month.`;
 
 console.log(sentence);
 
